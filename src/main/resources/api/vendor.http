@@ -1,0 +1,14 @@
+POST localhost:8080/vendors
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "abcd@exampl.com",
+  "phone": "6700801784",
+  "address": "block x",
+  "created": 1644170278
+}
+###
+GET localhost:8080/vendors/1
+###
+DELETE localhost:8080/vendors/1
